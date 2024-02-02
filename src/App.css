@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .title-container {
+    height: 20vh;
+    margin-inline: 30%;
+    /*background: linear-gradient(120deg, #8fc0ff, rgb(154, 218, 255));
+    */text-align: center;
+    border-radius: 1.5vh;
+  }
+  
+
+  
+  .title-container h2 {
+    color: rgb(53, 53, 53);
+  }
+
+  .balance-container {
+    padding-left: 25vw;
+  }
+
+  .balance-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: -20px;
+  }
+
+  .moneycounter {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: gray;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .IncomeExpense-container {
+    background-color: white;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 50%;
+    height: 25vh;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+  }
+  
+  .historyh1 {
+    padding-top: 4vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 5vw;
+    margin-bottom: 40px;
+  }
+
+  .expenses h1,
+  .income h1 {
+    padding-top: 4vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .expenses,
+  .income {
+    width: 50%;
+  }
+  
+  .income h2, .expenses h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size:4.5vh;
+    margin-top: -2px;
+    font-style: normal;  
+  }
+
+  .income h2 {
+    color: rgb(0, 226, 0);
+  }
+
+  .expenses h2 {
+    color: red;
+  }
+
+  .transaction-container-income, .transaction-container-expense  {
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.19);
+    border-right: solid;
+    border-radius: 6px;
+    border-width: 3px;
+    height: 10vh;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+  .transaction-container-income {
+    border-right-color: rgb(9, 255, 0);
+  }
+
+  .transaction-container-expense {
+    border-right-color: rgb(255, 30, 0);
+  }
+
+  .transaction-container-income h1, .transaction-container-expense h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .transaction-container-income h2, .transaction-container-expense h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: right;
+    flex: auto;
+  }
+
+  .submit-container h2 {
+    padding-top: 4vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .submit-container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .submit-container-form {
+    display: block;
+    width: 50%;
+    height: 5vh;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .submit-container-form input {
+    width: 100%;
+  }
+
+  .centered-textfield {
+    margin-left: 10vw;
+    text-align: center;
+    width: 50%; /* Set the desired width */
+    margin: 100% auto; /* Center the text field horizontally */
+  }
+  
